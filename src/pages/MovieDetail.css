@@ -116,7 +116,13 @@ body{
     display: flex;
     flex-direction: row;
 }
-
+.formrate{
+    margin-left: 1vw;
+    padding: 0;
+    margin-top: -0.8vh;
+    width: 2vw;
+    border-radius: 2px;
+}
 .ratingText{
     color: white;
     font-family:'lucida console';
@@ -145,4 +151,5 @@ body{
     background: transparent;
     color: white;
     border: solid;
+    border-radius: 7px;
 }

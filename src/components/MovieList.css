@@ -65,3 +65,9 @@ body{
     font-size: 15px;
     text-decoration: none;
 }
+.loading{
+    margin-top: 45vh;
+    margin-left: 45vw;
+    color: white;
+    
+}

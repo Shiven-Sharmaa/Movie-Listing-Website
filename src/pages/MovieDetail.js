@@ -2,7 +2,6 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import {useState, useEffect, useRef} from 'react'
 import './MovieDetail.css'
-import MovieList from '../components/MovieList'
 import {Link} from "react-router-dom"
 
 const MovieDetail = () => {
@@ -44,9 +43,9 @@ const MovieDetail = () => {
     //     }
     // }, []);
         
-    useEffect(() => {
-        window.localStorage.setItem('BOOKMARK', bookmark);
-    }, [bookmark])
+    // useEffect(() => {
+    //     window.localStorage.setItem('BOOKMARK', bookmark);
+    // }, [bookmark])
     
     useEffect(()=>{
         getMovies()
@@ -78,19 +77,19 @@ const MovieDetail = () => {
         var movie=movieList[i]
 
         //THE API KEY IS INVALID IN THIS POST REQUEST?
-        const options = {
-        method: 'POST',
-        headers: {
-            accept: 'application/json',
-            'Content-Type': 'application/json;charset=utf-8',
-            Authorization: 'Bearer a5c936979fd7db55e57712feb5fa942b'
-        }
-        };
+        // const options = {
+        // method: 'POST',
+        // headers: {
+        //     accept: 'application/json',
+        //     'Content-Type': 'application/json;charset=utf-8',
+        //     Authorization: 'Bearer a5c936979fd7db55e57712feb5fa942b'
+        // }
+        // };
         
-        fetch(`https://api.themoviedb.org/3/movie/${movie.id}/rating`, options)
-        .then(response => response.json())
-        .then(response => console.log(response))
-        .catch(err => console.error(err));
+        // fetch(`https://api.themoviedb.org/3/movie/${movie.id}/rating`, options)
+        // .then(response => response.json())
+        // .then(response => console.log(response))
+        // .catch(err => console.error(err));
         
         return (
         <div className='body'>
@@ -108,7 +107,8 @@ const MovieDetail = () => {
                         <button type='button' id='btn-1' onClick={handleClick}><div className='bookmarkText'>{bookmarktext}</div></button>
                     </div>
                     <div className='rating'>
-                        <div className='ratingText'>Rate the movie : <form onSubmit={onSubmit}><input type="text" ref={inputRef} className='rate'></input></form> </div>
+                        <div className='ratingText'>Rate the movie :</div>
+                        <form onSubmit={onSubmit} className='formrate'><input type="text" ref={inputRef} className='rate'></input></form>
                     </div>
                 </div>
                 <img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} className='viewImage' />
