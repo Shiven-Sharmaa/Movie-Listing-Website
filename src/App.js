@@ -5,11 +5,11 @@ import MovieDetail from "./pages/MovieDetail"
 import ErrorPage from './pages/ErrorPage'
 
 const router = createBrowserRouter([{
-  path: '/Shiven-Sharmaa.github.io/Movie-Listing-Website/',
+  path: '/',
   element: <HomePage />,
   errorElement: <ErrorPage />,
 },{
-  path:'/Shiven-Sharmaa.github.io/Movie-Listing-Website/:movieId',
+  path:'/:movieId',
   element: <MovieDetail />,
 }]);
 

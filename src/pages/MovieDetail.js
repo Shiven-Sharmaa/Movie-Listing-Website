@@ -7,6 +7,7 @@ import {Link} from "react-router-dom"
 const MovieDetail = () => {
     const params= useParams();
     const i=params.movieId;
+
     
     const [bookmark,setBookmark] = useState(false);
     const [bookmarktext,setBookmarktext] =useState("Bookmark?")
@@ -92,7 +93,7 @@ const MovieDetail = () => {
         <div className='body'>
             <img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} className='bodyImage' />
             <div className='darkEffect'></div>
-            <Link to="/Shiven-Sharmaa.github.io/Movie-Listing-Website/" className='goback'>Go back to home?</Link>
+            <Link to="/" className='goback'>Go back to home?</Link>
             <div className='contentBody'>
                 <div className='container'>
                     <div className='movieTitle'><h1>{movie.title}</h1></div>
