@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Shiven-Sharmaa.github.io/Movie-Listing-Website/static/css/main.76bcce18.css",
-    "main.js": "/Shiven-Sharmaa.github.io/Movie-Listing-Website/static/js/main.2609678d.js",
-    "static/js/592.46ba4a99.chunk.js": "/Shiven-Sharmaa.github.io/Movie-Listing-Website/static/js/592.46ba4a99.chunk.js",
-    "index.html": "/Shiven-Sharmaa.github.io/Movie-Listing-Website/index.html",
-    "main.76bcce18.css.map": "/Shiven-Sharmaa.github.io/Movie-Listing-Website/static/css/main.76bcce18.css.map",
-    "main.2609678d.js.map": "/Shiven-Sharmaa.github.io/Movie-Listing-Website/static/js/main.2609678d.js.map",
-    "592.46ba4a99.chunk.js.map": "/Shiven-Sharmaa.github.io/Movie-Listing-Website/static/js/592.46ba4a99.chunk.js.map"
+    "main.css": "/Movie-Listing-Website/static/css/main.76bcce18.css",
+    "main.js": "/Movie-Listing-Website/static/js/main.e3dce7fd.js",
+    "static/js/592.46ba4a99.chunk.js": "/Movie-Listing-Website/static/js/592.46ba4a99.chunk.js",
+    "index.html": "/Movie-Listing-Website/index.html",
+    "main.76bcce18.css.map": "/Movie-Listing-Website/static/css/main.76bcce18.css.map",
+    "main.e3dce7fd.js.map": "/Movie-Listing-Website/static/js/main.e3dce7fd.js.map",
+    "592.46ba4a99.chunk.js.map": "/Movie-Listing-Website/static/js/592.46ba4a99.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.76bcce18.css",
-    "static/js/main.2609678d.js"
+    "static/js/main.e3dce7fd.js"
   ]
 }
