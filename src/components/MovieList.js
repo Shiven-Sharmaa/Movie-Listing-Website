@@ -45,7 +45,7 @@ const MovieList = () => {
                     {
                         return( 
                             <div key={i} className='movieCard'>
-                                <Link to={`/${i}`} className='imgLink' ><img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} className='img'/>
+                                <Link to={`/Shiven-Sharmaa.github.io/Movie-Listing-Website/${i}`} className='imgLink' ><img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} className='img'/>
                                 <div className='title'>{movie.title}</div>
                                 <div className='year'>{movie.release_date.substring(0,4)}</div></Link>
                             </div>
