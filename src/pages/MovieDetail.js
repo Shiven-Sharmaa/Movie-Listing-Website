@@ -7,9 +7,6 @@ import {Link} from "react-router-dom"
 const MovieDetail = () => {
     const params= useParams();
     const i=params.movieId;
-
-    var counter=0;
-    var counter1=0;
     
     const [bookmark,setBookmark] = useState(false);
     const [bookmarktext,setBookmarktext] =useState("Bookmark?")
