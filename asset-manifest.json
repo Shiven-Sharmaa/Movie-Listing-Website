@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Shiven-Sharmaa.github.io/Movie-Listing-Website/static/css/main.76bcce18.css",
+    "main.js": "/Shiven-Sharmaa.github.io/Movie-Listing-Website/static/js/main.a75d4d68.js",
+    "static/js/592.46ba4a99.chunk.js": "/Shiven-Sharmaa.github.io/Movie-Listing-Website/static/js/592.46ba4a99.chunk.js",
+    "index.html": "/Shiven-Sharmaa.github.io/Movie-Listing-Website/index.html",
+    "main.76bcce18.css.map": "/Shiven-Sharmaa.github.io/Movie-Listing-Website/static/css/main.76bcce18.css.map",
+    "main.a75d4d68.js.map": "/Shiven-Sharmaa.github.io/Movie-Listing-Website/static/js/main.a75d4d68.js.map",
+    "592.46ba4a99.chunk.js.map": "/Shiven-Sharmaa.github.io/Movie-Listing-Website/static/js/592.46ba4a99.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76bcce18.css",
+    "static/js/main.a75d4d68.js"
+  ]
+}
